@@ -56,7 +56,7 @@ let emailadapter = (options) => {
   let sendVerificationEmail=(data) => {
       
         let mail = {
-            subject: '邮箱验证',
+            subject: options.verificationEmailTitle,
             to: getUserEmail(data.user)
         };
         mail.text = data.link;
@@ -65,7 +65,7 @@ let emailadapter = (options) => {
 
    let sendPasswordResetEmail = (data) => {
         let mail = {
-            subject: '重置密码',
+            subject: options.passwordRestTitle,
             to: getUserEmail(data.user)
         };
         mail.text = data.link;

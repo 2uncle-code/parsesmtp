@@ -17,11 +17,13 @@
     emailAdapter: {
         module: 'parsesmtp',
             options: {
-                host: yourHost.com,
-                port: 25,
-                secureConnection:true,
-                user: admin,
-                pass: nicePwd,
+                host: yourhost.com, //required
+                port: 25,           //required
+                secureConnection:true, //required
+                user: admin@yourhost.com,    //required
+                pass: nicePwd,  //required
+                verificationEmailTitle:'Verify your email', //required
+                passwordRestTitle:'Change your password' //required
             }
     }
     });
