@@ -1,0 +1,30 @@
+{
+  "name": "parsesmtp",
+  "version": "1.0.1",
+  "description": "email adapter for parse server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vtista/parsesmtp.git"
+  },
+  "keywords": [
+    "parse",
+    "server",
+    "email",
+    "adapter",
+    "smtp",
+    "adapter"
+  ],
+  "author": "The great 2uncle!",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vtista/parsesmtp/issues"
+  },
+  "homepage": "https://github.com/vtista/parsesmtp#readme",
+  "dependencies": {
+    "nodemailer": "^4.6.8"
+  }
+}
